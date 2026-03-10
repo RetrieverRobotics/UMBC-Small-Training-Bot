@@ -27,8 +27,8 @@ using namespace std;
 
 
 // motor ports
-#define LEFT_MOTOR_PORTS    {null, null} // ports for left drive 
-#define RIGHT_MOTOR_PORTS   {null, null} // ports for right motors
+#define LEFT_MOTOR_PORTS    {6, 1} // ports for left drive 
+#define RIGHT_MOTOR_PORTS   {15, 13} // ports for right motors
  
  
 void umbc::Robot::opcontrol() {
